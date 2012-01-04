@@ -1,8 +1,8 @@
 
 ;;;### (autoloads (htmlize-many-files-dired htmlize-many-files htmlize-file
-;;;;;;  htmlize-region htmlize-buffer) "htmlize" "../htmlize.el"
-;;;;;;  (20200 53568))
-;;; Generated autoloads from ../htmlize.el
+;;;;;;  htmlize-region htmlize-buffer) "../htmlize" "../htmlize.el"
+;;;;;;  (20200 55093))
+;;; Generated autoloads from htmlize.el
 
 (autoload 'htmlize-buffer "htmlize" "\
 Convert BUFFER to HTML, preserving colors and decorations.
@@ -65,4 +65,3 @@ HTMLize dired-marked files.
 \(fn ARG &optional TARGET-DIRECTORY)" t nil)
 
 ;;;***
-(provide 'htmlize-epkg-0loaddefs)
