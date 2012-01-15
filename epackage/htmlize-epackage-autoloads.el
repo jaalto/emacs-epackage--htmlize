@@ -45,4 +45,4 @@
 (autoload 'htmlize-file                         "htmlize" "" t)
 (autoload 'htmlize-many-files                   "htmlize" "" t)
 (autoload 'htmlize-many-files-dired             "htmlize" "" t)
-(provide 'htmlize-epkg-autoloads)
+(provide 'htmlize-epackage-autoloads)
