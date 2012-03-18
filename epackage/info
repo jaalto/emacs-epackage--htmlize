@@ -1,6 +1,6 @@
 Package: htmlize
 Section: hypermedia
-License: GPL-2+ | BSD | Apache-2.0 | ... | Custom | None
+License: GPL-2+
 Depends: emacs (>= 22) | xemacs (>= 21)
 Status: core-xemacs stable
 Compat:
