@@ -1,0 +1,22 @@
+Package: htmlize
+Section: hypermedia
+License: GPL-2+
+Depends: emacs (>= 22) | xemacs (>= 21)
+Status: core-xemacs stable
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Hrvoje Niksic <hniksic@xemacs.org>
+Upstream-Bugs:
+Vcs-Type: git
+Vcs-Url: http://fly.srk.fer.hr/~hniksic/emacs/htmlize.git
+Vcs-Browser:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/
+Commentary:
+Description: convert fontification into HTML
+ The fontification (font-lock-mode) is converted into HTML with
+ command M-x htmlize-buffer. You will be switched to a new buffer
+ that contains the resulting HTML code. You can edit and inspect the
+ output and save content to a file. Other commands include M-x
+ htmlize-file and M-x htmlize-many-files.
