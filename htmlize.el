@@ -1735,7 +1735,7 @@ it's called with the same value of KEY.  All other times, the cached
   (when (and (boundp 'font-lock-mode)
 	     font-lock-mode)
     ;; In part taken from ps-print-ensure-fontified in GNU Emacs 21.
-    (cond
+    (ignore-errors (cond
      ((and (boundp 'jit-lock-mode)
 	   (symbol-value 'jit-lock-mode))
       (htmlize-with-fontify-message
@@ -1753,7 +1753,7 @@ it's called with the same value of KEY.  All other times, the cached
      ;; There's also fast-lock, but we don't need to handle specially,
      ;; I think.  fast-lock doesn't really defer fontification, it
      ;; just saves it to an external cache so it's not done twice.
-     )))
+     ))))
 
 
 ;;;###autoload
